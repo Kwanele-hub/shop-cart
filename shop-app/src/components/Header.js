@@ -2,23 +2,18 @@ import React from 'react';
 
 export default function Header(props) {
   return (
-    <header className="block row center">
+    // <header className="block row center">
       <div>
-        <a href="#/">
-          <h1>Mkhwanazi shopping cart</h1>
-          
-        </a>
-      </div>
-      <div>
-        <a href="#/cart">
-          Cart{' '}
+        
+          <h1>Mkhwanazi Store...!</h1>
+          <h4>#Basket{' '}</h4>
           {props.countCartItems ? (
-            <button className="badge">{props.countCartItems}</button>
+            <button>{props.countCartItems}</button>
           ) : (
             ''
           )}
-        </a>{' '}
+          
       </div>
-    </header>
+    //  </header>
   );
 }
