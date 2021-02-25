@@ -7,7 +7,7 @@ const data = {
         price: 1400,
         image: 'https://cdn.pixabay.com/photo/2015/11/09/14/43/laptop-1035345_960_720.jpg',
         // description: 'MacBook Pro 15-inch Touch Bar',
-      },
+      }, 
       {
         id: '2',
         name: 'Black Dress',
